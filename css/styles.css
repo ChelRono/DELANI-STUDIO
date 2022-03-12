@@ -1,0 +1,17 @@
+body{
+    background-image: url("/images/h_img.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.center{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    font-size: x-small;
+}
