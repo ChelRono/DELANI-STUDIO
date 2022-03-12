@@ -1,6 +1,7 @@
 body{
     background-image: url("/images/h_img.jpg");
     background-size: cover;
+    font-size: small;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,8 +11,17 @@ body{
 .center{
     text-align: center;
     color: white;
+    
 }
 p{
     color: white;
     font-size: x-small;
+}
+.logo{
+  align-items: center;  
+  font-size: small;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
