@@ -25,3 +25,10 @@ p{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.mouse_click{
+    align-items: center;
+    position: absolute;
+    bottom: -100%;
+    left:100%
+    transform: translate(-50%, -50%);
+}
