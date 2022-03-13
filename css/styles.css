@@ -50,5 +50,28 @@ h2,h4{
     color: white;
 }
 .development{
-    
+    top: 177%;
+    left: 50%;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -30px;
+}
+.product{
+    top: 175%;
+    left: 80%;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -30px;  
+}
+/* .icon_middle {
+    width:50px;
+float: right;
+width: 100px;
+height: 85px;
+}
+.icon_middle span {
+    display:block;
+} */
+.development span{
+    display: inline-block;
 }
