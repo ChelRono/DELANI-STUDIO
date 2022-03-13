@@ -1,7 +1,16 @@
-body{
-    background-image: url("/images/h_img.jpg");
-    background-size: cover;
+img{
+    background-size: auto;
     font-size: small;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.container{
+    
+    background-size: cover;
+    font-size: smaller;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,18 +26,18 @@ p{
     color: white;
     font-size: x-small;
 }
-.logo{
+#logo{
   align-items: center;  
   font-size: small;
   position: absolute;
-  top: -20%;
+  top: -30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .mouse_click{
     
     position: absolute;
-    bottom: -100%;
+    bottom: 100%;
     left:50%;
     transform: translate(-50%, -50%);
 }
