@@ -1,43 +1,36 @@
-img{
-    background-size: auto;
-    font-size: small;
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-.container{
-    
-    background-size: cover;
-    font-size: smaller;
+body{
+    background-image: url(/images/h_img.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    /* height: 100%; */
+    font-size: x-small;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    
 }
 .center{
     text-align: center;
     color: white;
-    
+    top: 50%;
+    left: 50%;
 }
 p{
     color: white;
     font-size: x-small;
 }
-#logo{
+.logo{
+  
   align-items: center;  
-  font-size: small;
   position: absolute;
-  top: -30%;
+  top: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .mouse_click{
-    
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     left:50%;
-    transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
 }
