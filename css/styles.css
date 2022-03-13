@@ -1,8 +1,7 @@
-body{
-    background-image: url(/images/h_img.jpg);
-    background-repeat: no-repeat;
-   background-size: cover;
-    /* height: 100%; */
+.container{
+
+    /* background-repeat: no-repeat;
+   background-size: cover; */
     font-size: x-small;
     position: absolute;
     top: 50%;
@@ -17,8 +16,10 @@ body{
     left: 50%;
 }
 p{
-    color: white;
+    /* color: white; */
     font-size: x-small;
+    text-align: center;
+    font-weight: 100;
 }
 .logo{
   
@@ -33,4 +34,7 @@ p{
     top: 100%;
     left:50%;
     transform:translate(-50%, -50%);
+}
+h2{
+    text-align: center;
 }
