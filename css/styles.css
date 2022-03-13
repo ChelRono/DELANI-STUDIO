@@ -4,7 +4,7 @@
    background-size: cover; */
     font-size: x-small;
     position: absolute;
-    top: 50%;
+    top:55%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -16,7 +16,7 @@
     left: 50%;
 }
 p{
-    /* color: white; */
+    color: white;
     font-size: x-small;
     text-align: center;
     font-weight: 100;
@@ -31,10 +31,15 @@ p{
 }
 .mouse_click{
     position: absolute;
-    top: 100%;
+    top: 110%;
     left:50%;
     transform:translate(-50%, -50%);
 }
+.about{
+    
+    font-size: x-small;
+    text-align: center;
+    font-weight: 100;
 img{
   
   height: auto; 
@@ -44,20 +49,20 @@ h2,h4{
 }
 .centered {
     position: absolute;
-    top: 130%;
+    top: 145%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 .development{
-    top: 177%;
+    top: 195%;
     left: 50%;
     position: absolute;
     margin-left: -25px;
     margin-top: -30px;
 }
 .product{
-    top: 175%;
+    top: 195%;
     left: 80%;
     position: absolute;
     margin-left: -25px;
