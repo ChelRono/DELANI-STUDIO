@@ -79,6 +79,9 @@ h2,h4{
     transform: translate(-50%, -50%);
     color: white;
   }
-  .address{
-      
+  form{
+      position: absolute;
+      top: 340%;
+      padding: 40px 40px;
   }
+  
