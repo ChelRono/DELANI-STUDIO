@@ -88,3 +88,7 @@ h2,h4{
       position: absolute;
       top: 335%;
     }
+    footer{
+        position: absolute;
+        left: 35%;
+    }
