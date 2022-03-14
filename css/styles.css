@@ -31,7 +31,7 @@
 }
 .mouse_click{
     position: absolute;
-    top: 110%;
+    top: 250%;
     left:50%;
     transform:translate(-50%, -50%);
 }
@@ -49,7 +49,7 @@ h2,h4{
     text-align: center;
     font-size: medium;
 }
-.center {
+.centered {
     position: absolute;
     top: 145%;
     left: 50%;
@@ -59,14 +59,14 @@ h2,h4{
    text-align: center;
 }
 .development{
-    top: 195%;
+    top: 190%;
     left: 50%;
     position: absolute;
     margin-left: -25px;
     margin-top: -30px;
 }
 .product{
-    top: 195%;
+    top: 187%;
     left: 80%;
     position: absolute;
     margin-left: -25px;
@@ -81,6 +81,3 @@ height: 85px;
 .icon_middle span {
     display:block;
 } */
-.development span{
-    display: inline-block;
-}
