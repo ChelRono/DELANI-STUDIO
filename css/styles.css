@@ -98,8 +98,9 @@ height: 85px;
     clear: both;
     display: table;
   } */
-  img{
+img{
       
-      padding-right: 10px;
+      padding-right: 20px;
       justify-content: space-between;
+      white-space: normal;
   }
