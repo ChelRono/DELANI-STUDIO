@@ -5,7 +5,7 @@ $(".toggler").click(function() {
     $(".toggler p.par").show();
     
     // Now toggle the ones in this .toggler
-    $("img", this).toggle();
+    $("img", "p", this).toggle();
 });
 $(".toggler").click(function() {
     
