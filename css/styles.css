@@ -82,3 +82,22 @@ height: 85px;
     display:block;
 } */
 
+/* .header{
+    justify-content: space-between;
+    display:block;
+    margin-right: 10px;
+} */
+img{
+    position: relative;
+    width: 400;
+}
+.col-md-3{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
