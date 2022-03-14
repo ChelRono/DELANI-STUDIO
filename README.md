@@ -1,4 +1,4 @@
-# Akan-Names
+# DELANI-STUDIO
 
 This application is about DELANI-STUDIO. This company deals with software development.It makes products for people according to their needs in collaboration with the people giving the projects.This website contains projects done over time and other objectives. 
 
@@ -18,7 +18,8 @@ This application is about DELANI-STUDIO. This company deals with software develo
 ## Behaviour Driven Development
 
 1. Portfolio section
--When you click the image it displays the project name
+-When you click the image it displays the project name.
+
 2.What to do section
 -Here the three icons onclicking them you get descriptions of each
 
