@@ -1,8 +1,8 @@
 $(".toggler").click(function() {
     
     // Reset all
-    $(".toggler img.alt").hide();
-    $(".toggler img.orig").show();
+    $(".toggler img.design").hide();
+    $(".toggler p.par").show();
     
     // Now toggle the ones in this .toggler
     $("img", this).toggle();
