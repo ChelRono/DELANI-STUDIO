@@ -9,7 +9,7 @@ $(document).ready(function () {
 //hover element
 $(document).ready( function() {
 
-    $('.container-fluid').hover( function() {
+    $('.image').hover( function() {
         $(this).find('.overlay').fadeIn();
     }, function() {
         $(this).find('.overlay').fadeOut();
