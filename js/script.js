@@ -6,3 +6,13 @@ $(document).ready(function () {
 
     });
 });
+//hover element
+$(document).ready( function() {
+
+    $('.container-fluid').hover( function() {
+        $(this).find('.overlay').fadeIn();
+    }, function() {
+        $(this).find('.overlay').fadeOut();
+    });
+    
+});
