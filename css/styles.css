@@ -74,14 +74,17 @@ h2,h4{
 }
 .contacts {
     position: absolute;
-    top: 340%;
+    top: 315%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
   }
   form{
       position: absolute;
-      top: 340%;
+      top: 320%;
       padding: 40px 40px;
   }
-  
+  textarea{
+      position: absolute;
+      top: 335%;
+    }
