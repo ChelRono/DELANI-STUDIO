@@ -72,35 +72,10 @@ h2,h4{
     margin-left: -25px;
     margin-top: -30px;  
 }
-/* .icon_middle {
-    width:50px;
-float: right;
-width: 100px;
-height: 85px;
-}
-.icon_middle span {
-    display:block;
-} */
-
-/* .header{
-    justify-content: space-between;
-    display:block;
-    margin-right: 10px;
-} */
-
-/* .col-md-3{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
-img{
-      
-      padding-right: 20px;
-      justify-content: space-between;
-      white-space: normal;
+.contacts {
+    position: absolute;
+    top: 340%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
