@@ -51,7 +51,7 @@ h2,h4{
 }
 .centered {
     position: absolute;
-    top: 145%;
+    top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
    color: white;
