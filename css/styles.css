@@ -88,9 +88,15 @@ h2,h4{
     top: 40%;
     left: 40%;
 }
-img :hover{
-    opacity: 0.2%;
-    
+.text {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+    text-shadow: 1px 1px #fff;
 }
 .contacts {
     position: absolute;

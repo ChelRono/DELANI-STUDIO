@@ -17,12 +17,12 @@ $(document).ready(function(){
 }); */
 $(document).ready(function() {
     $('.text').hide();
-     $('img').animate({
+     $('.photo').animate({
         opacity:1
  
  });
  
- $('img').hover(function() {
+ $('.photo').hover(function() {
      $(this).stop().animate({opacity:.4},200);
      $('.text').fadeIn();
  
