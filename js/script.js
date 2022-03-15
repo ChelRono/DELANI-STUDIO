@@ -1,4 +1,22 @@
-$
+$('#hide').hide();
+
+        $('#show,#hide').on('click',function(){
+
+        	$('#show,#hide').toggle()
+        });
+        $('#hide1').hide();
+
+        $('#show1,#hide1').on('click',function(){
+
+        	$('#show1,#hide1').toggle()
+        });
+        $('#hide2').hide();
+
+        $('#show2,#hide2').on('click',function(){
+
+        	$('#show2,#hide2').toggle()
+        });
+/* $
 $(document).ready(function(){
     $(".design1").click(function(){
       $("#hide").toggle();
@@ -16,7 +34,7 @@ $(document).ready(function(){
         $(".product1").click(function(){
           $("#hide2").toggle();
         });
-      });
+      }); */
 
 
 //adding hover effect
