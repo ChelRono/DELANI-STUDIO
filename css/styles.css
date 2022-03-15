@@ -64,6 +64,15 @@ h4{
 .container{
     font-size: small;
 }
+#hide{
+    display: none;
+}
+#hide1{
+    display: none;
+}
+#hide2{
+    display: none;
+}
 .design{
     font-size: small;
     top: 161;
