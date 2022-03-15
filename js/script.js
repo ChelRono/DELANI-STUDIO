@@ -4,17 +4,7 @@ $(document).ready(function(){
       $("p").toggle();
     });
   });
-  
-//hover element
-/* $(document).ready( function() {
 
-    $('.image').hover( function() {
-        $(this).find('.overlay').fadeIn();
-    }, function() {
-        $(this).find('.overlay').fadeOut();
-    });
-    
-}); */
 $(document).ready(function() {
     $('.text').hide();
      $('.photo').animate({
