@@ -1,10 +1,24 @@
 $
 $(document).ready(function(){
-    $("#hide").click(function(){
-      $("p").toggle();
+    $(".design1").click(function(){
+      $("#hide").toggle();
     });
   });
+  $
+  $(document).ready(function(){
+      $(".development1").click(function(){
+        $("#hide1").toggle();
+      });
+    });
+    $
+    $(document).ready(function(){
+        $(".product1").click(function(){
+          $("#hide2").toggle();
+        });
+      });
 
+
+//adding hover effect
 $(document).ready(function() {
     $('.text').hide();
      $('.photo').animate({
