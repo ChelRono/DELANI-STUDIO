@@ -58,35 +58,53 @@ h2,h4{
    font-size: x-small;
    text-align: center;
 }
+.design{
+    font-size: small;
+}
 .development{
     top: 171%;
-    left: 50%;
+    right: 40%;
     position: absolute;
     margin-left: -25px;
     margin-top: -30px;
+    font-size: small;
+}
+.development1{
+ left: 10%;
+ display: block;
+ bottom: 0%;
+ justify-content: center;
 }
 .product{
-    top: 169%;
-    left: 80%;
+    top: 0%;
+    left: 120%;
     position: absolute;
     margin-left: -25px;
-    margin-top: -30px;  
+    margin-top: -30px; 
+    font-size: small; 
+    text-align: center;
+}
+.product1{
+    top: 40%;
+    left: 40%;
 }
 .contacts {
     position: absolute;
-    top: 315%;
+    top: 330%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
   }
   form{
       position: absolute;
-      top: 320%;
+      top: 332%;
       padding: 40px 40px;
+      left: 33%;
   }
   textarea{
       position: absolute;
-      top: 335%;
+      top: 345%;
+      left: 35%;
     }
     footer{
         position: absolute;
