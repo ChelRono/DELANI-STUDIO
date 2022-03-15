@@ -1,28 +1,12 @@
-$(document).ready(function () {
-    var $content = $(".content").hide();
-    $(".toggle").on("click", function {
-        $(this).toggleClass("expanded");
-        $(this).next().slideToggle();
-
-    });
-});
-/* $(document).ready(function(){
-    $("toggle").click(function(){
-      $("p").toggle();
-    });
-  }); */
- /*  $(document).ready(function(){
-    $(".development").click(function(){
+$
+$(document).ready(function(){
+    $("#hide").click(function(){
       $("p").toggle();
     });
   });
-  $(document).ready(function(){
-    $(".product").click(function(){
-      $("p").toggle();
-    });
-  }); */
+  
 //hover element
-$(document).ready( function() {
+/* $(document).ready( function() {
 
     $('.image').hover( function() {
         $(this).find('.overlay').fadeIn();
@@ -30,4 +14,20 @@ $(document).ready( function() {
         $(this).find('.overlay').fadeOut();
     });
     
-});
+}); */
+$(document).ready(function() {
+    $('.text').hide();
+     $('img').animate({
+        opacity:1
+ 
+ });
+ 
+ $('img').hover(function() {
+     $(this).stop().animate({opacity:.4},200);
+     $('.text').fadeIn();
+ 
+ }, function() {
+     $(this).stop().animate({opacity:1},500)
+     $('.text').fadeOut();
+ });
+ });

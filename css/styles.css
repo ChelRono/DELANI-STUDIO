@@ -60,10 +60,11 @@ h2,h4{
 }
 .design{
     font-size: small;
+    top: 160;
 }
 .development{
-    top: 171%;
-    right: 40%;
+    top: 167%;
+    right: 35%;
     position: absolute;
     margin-left: -25px;
     margin-top: -30px;
@@ -76,17 +77,20 @@ h2,h4{
  justify-content: center;
 }
 .product{
-    top: 0%;
-    left: 120%;
+    top: 165%;
+    right: 5%;
     position: absolute;
     margin-left: -25px;
     margin-top: -30px; 
     font-size: small; 
-    text-align: center;
 }
 .product1{
     top: 40%;
     left: 40%;
+}
+img :hover{
+    opacity: 0.2%;
+    
 }
 .contacts {
     position: absolute;
