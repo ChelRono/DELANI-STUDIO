@@ -2,6 +2,7 @@ $
 $(document).ready(function(){
     $(".design1").click(function(){
       $("#hide").toggle();
+      // $("#show").toggle();
     });
   });
   $
