@@ -147,3 +147,6 @@ $(document).ready(function () {
     $('.text7').fadeOut();
   });
 });
+function submitForm() {
+  return alert('Do you really want to submit the form?');
+}

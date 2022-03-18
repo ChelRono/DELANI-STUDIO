@@ -28,10 +28,11 @@
   top: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  size-adjust: small;
 }
 .mouse_click{
     position: absolute;
-    top: 250%;
+    top: 110%;
     left:50%;
     transform:translate(-50%, -50%);
 }
@@ -63,6 +64,7 @@ h4{
 }
 .container{
     font-size: small;
+    top: 50%;
 }
 #hide{
     display: none;
@@ -179,16 +181,20 @@ h4{
     font-size: x-large;
 }
 .contacts {
+    background-image: url(images/c_image.jpg);
     position: absolute;
-    top: 330%;
+    /* top: 330%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: white; */
+    background-size: cover;
+     height:500px; 
+     padding-top:80px
   }
   
   form{
       position: absolute;
-      top: 332%;
+      top: 32%;
       padding: 40px 40px;
       left: 20%;
   }
@@ -211,15 +217,25 @@ h4{
         position: absolute;
         left: 37%;
     }
-    .innerdiv
-{
-	border: 5px solid white;
-	height: 80%;
-	width: 80%;
-}
+
     #mc-embedded-subscribe-form{
-        top: 0%;
+        background-image: url(images/c_image.jpg);
+        top: 120%;
         left: 0%;
-        justify-content: center;
-    }
     
+    }
+
+    #mc-embedded-subscribe{
+        color: blue;
+    }
+    /* .border {
+        position:absolute;
+        top:0px;
+        left:0px;
+        margin:15px;
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+        display:block;
+        border:solid 1px red;
+    
+    } */
