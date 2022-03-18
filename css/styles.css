@@ -115,6 +115,69 @@ h4{
     color: #000;
     font-size: x-large;
 }
+.text1{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text2{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text3{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text4{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text5{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text6{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
+.text7{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+    color: #000;
+    font-size: x-large;
+}
 .contacts {
     position: absolute;
     top: 330%;
@@ -122,11 +185,12 @@ h4{
     transform: translate(-50%, -50%);
     color: white;
   }
+  
   form{
       position: absolute;
       top: 332%;
       padding: 40px 40px;
-      left: 33%;
+      left: 20%;
   }
   textarea{
       position: absolute;
@@ -136,12 +200,26 @@ h4{
     footer{
         position: absolute;
         left: 35%;
+        /* bottom: -70%; */
     }
     .footer1{
         position: absolute;
         left: 30%;
+        /* bottom: -70%; */
     }
     .footer2{
         position: absolute;
         left: 37%;
     }
+    .innerdiv
+{
+	border: 5px solid white;
+	height: 80%;
+	width: 80%;
+}
+    #mc-embedded-subscribe-form{
+        top: 0%;
+        left: 0%;
+        justify-content: center;
+    }
+    
